@@ -122,7 +122,7 @@ if (process.env.DBUSER) {
   };
 }
 
-let hoststring = "mongodb+srv://doadmin:mA4J7j6S53w120WX@uwazidevelopment-60f3e49c.mongo.ondigitalocean.com:27017/admin?authSource=admin"
+let hoststring = "mongodb+srv://doadmin:mA4J7j6S53w120WX@uwazidevelopment-60f3e49c.mongo.ondigitalocean.com/admin tls=true&authSource=admin&replicaSet=uwazidevelopment";
 
 console.info('==> Connecting to', hoststring);
 DB.connect(hoststring, dbAuth).then(async () => {
