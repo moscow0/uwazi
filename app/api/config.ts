@@ -32,7 +32,7 @@ export const config = {
 
   PORT: process.env.PORT || 3000,
 
-  DBHOST: 'mongodb+srv://' || onlyDBHOST(),
+  DBHOST: "mongodb+srv://doadmin:mA4J7j6S53w120WX@uwazidevelopment-60f3e49c.mongo.ondigitalocean.com/admin?tls=true&authSource=admin&replicaSet=uwazidevelopment",
 
   mongo_connection_pool_size: Number(MONGO_CONNECTION_POOL_SIZE) || 5,
 
